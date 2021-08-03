@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
 
-  <!-- Label layouts -->
-  <record id="postlogistics_layout_option_a7" model="delivery.carrier.template.option">
+  <!-- Label layouts  TODO -->
+<!--   <record id="postlogistics_layout_option_a7" model="delivery.carrier.template.option">
     <field name="name">Format A7</field>
     <field name="code">A7</field>
     <field name="postlogistics_type">label_layout</field>
@@ -28,11 +28,11 @@
     <field name="code">FE</field>
     <field name="postlogistics_type">label_layout</field>
     <field name="partner_id" ref="partner_postlogistics"/>
-  </record>
+  </record> -->
 
 
   <!-- Output formats -->
-  <record id="postlogistics_output_format_option_eps" model="delivery.carrier.template.option">
+<!--   <record id="postlogistics_output_format_option_eps" model="delivery.carrier.template.option">
     <field name="name">EPS</field>
     <field name="code">EPS</field>
     <field name="postlogistics_type">output_format</field>
@@ -79,11 +79,11 @@
     <field name="code">ZPL2</field>
     <field name="postlogistics_type">output_format</field>
     <field name="partner_id" ref="partner_postlogistics"/>
-  </record>
+  </record> -->
 
 
   <!-- resolutions -->
-  <record id="postlogistics_output_resolution_option_200ppp" model="delivery.carrier.template.option">
+<!--   <record id="postlogistics_output_resolution_option_200ppp" model="delivery.carrier.template.option">
     <field name="name">200 ppp</field>
     <field name="code">200</field>
     <field name="postlogistics_type">resolution</field>
@@ -102,5 +102,5 @@
     <field name="code">600</field>
     <field name="postlogistics_type">resolution</field>
     <field name="partner_id" ref="partner_postlogistics"/>
-  </record>
+  </record> -->
 </odoo>

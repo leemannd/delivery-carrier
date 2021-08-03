@@ -6,13 +6,13 @@
 
 To configure:
 
-* Go to `Configurations -> Settings -> Postlogistics`
+* Go to `Configurations -> Settings -> Quickpac`
 * Set your login informations
-* launch the Update PostLogistics Services
+* launch the Update Quickpac Services
 
 This will load available services and generate carrier options.
 
-Now you can create a carrier method for PostLogistics WebService:
+Now you can create a carrier method for Quickpac WebService:
 
 * First choose a Service group and save
 * Add a Mandatory Carrier option using a Basic Service
@@ -22,7 +22,7 @@ Now you can create a carrier method for PostLogistics WebService:
   from listed
 * Add additional Service and Delivery instructions
 
-.. _Log in: https://account.post.ch/selfadmin/?login&lang=en
+.. _Log in: https://account.post.ch/selfadmin/?login&lang=en  TODO replace
 
 Technical references
 ~~~~~~~~~~~~~~~~~~~~
